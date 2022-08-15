@@ -21,6 +21,7 @@ gitPull(){
 	cd ${QLMainPath}/config && mkdir tasklist
     cd ${QLMainPath}/repo && rm -rf pkc && git clone ${daili}https://github.com/NaDuoHu/diypkc.git
     cp -a ${QLMainPath}/repo/diypkc/* ${QLMainPath}/jbot && cp -a ${QLMainPath}/jbot/conf/* ${QLMainPath}/config && cp -a ${QLMainPath}/jbot/jk_script/* ${QLMainPath}/scripts
+	mkdir ${QLMainPath}/repo/dockerbot && ln -sf ${QLMainPath}/repo/gd ${QLMainPath}/repo/dockerbot/jbot && ln -sf ${QLMainPath}/repo/gd/conf ${QLMainPath}/repo/dockerbot/config
     if [ ! -d ${QLMainPath}/log/bot ]; then
         mkdir ${QLMainPath}/log/bot
     fi
@@ -38,7 +39,6 @@ if [ -f ${QLMainPath}/jbot/user/user.py ];then
     echo -e "rm -rf  ${QLMainPath}/jbot/*  &&   bash  install.sh\n"
     exit 0
 fi
-install_depend
 gitPull
 echo -e "\n*******************\n所需环境已部署完成\n*******************\n"
 echo -e "请前往面板【配置文件】配置tg机器人参数，再启动机器人即可。\n参考本仓库第3-4步: https://github.com/curtinlv/gd/blob/main/README.md "
