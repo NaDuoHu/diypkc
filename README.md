@@ -67,29 +67,15 @@ tail -100f /ql/data/log/bot/run.log
 
 ​											
 
-- [x] 如TG收到机器人信息，证明你填写的机器人参数是正确的∆。
-
-![图2：完成登录，tg机器人发通知](https://raw.githubusercontent.com/NaDuoHu/diypkc/main/img/p2.png?token=GHSAT0AAAAAABNMZKYX75RIARUXK4KZ3IFYYX2BJDQ)
-
 ## **登录user开启监控**
 
 - [x] a.发送【/user】 点击 **“重新登录”**
 
-![图1：首次登录授权个人tg](https://raw.githubusercontent.com/NaDuoHu/diypkc/main/img/p5.png?token=GHSAT0AAAAAABNMZKYXPXZYUGH6DHIYF5NGYX2BMFA)
-
 - [x] b.输入手机号格式0086x x xx x x (要关闭两步验证)
-
-![图2：登录](hhttps://raw.githubusercontent.com/NaDuoHu/diypkc/main/img/p7.png?token=GHSAT0AAAAAABNMZKYWUEB6OOTKJNNTEPE6YX2BMLQ)
 
 - [x] c.发送【user?】 给你的机器人，有以下回复，证明监控状态正常。
 
-![图3：测试1](https://raw.githubusercontent.com/NaDuoHu/diypkc/main/img/p8.png?token=GHSAT0AAAAAABNMZKYXBYRIPZKAZFHDAOLGYX2BMSA)
-
-![图4：测试2](https://raw.githubusercontent.com/NaDuoHu/diypkc/main/img/p9.png?token=GHSAT0AAAAAABNMZKYXJ7ZGD3JOF433RYJYYX2BMYA)
-
 - [x] 在所监控的频道发出变量，机器人会马上通知：
-
-![图4：测试2](https://raw.githubusercontent.com/NaDuoHu/diypkc/main/img/p4.png?token=GHSAT0AAAAAABNMZKYW4THOUVVWWHXBELS6YX2BNFQ)
 
 
 
