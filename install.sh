@@ -21,6 +21,7 @@ gitPull(){
     cd ${QLMainPath}/repo && rm -rf diypkc && git clone ${daili}https://github.com/NaDuoHu/diypkc.git
     cp -a ${QLMainPath}/repo/diypkc/* ${QLMainPath}/jbot && cp -a ${QLMainPath}/jbot/conf/* ${QLMainPath}/config && cp -a ${QLMainPath}/jbot/js_script/* ${QLMainPath}/scripts
     rm -rf ${QLMainPath}/repo/diypkc
+    cd ${QLMainPath}/config && rm -rf user.session
     if [ ! -d ${QLMainPath}/log/bot ]; then
         mkdir ${QLMainPath}/log/bot
     fi
