@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-set -e
-daili=''
+
+daili='https://github.lolkda.cf/'
 
 if [ -d /ql/data/config ];then
     QLMainPath='/ql/data'
@@ -19,7 +19,7 @@ gitPull(){
 	rm -rf ${QLMainPath}/repo/dockerbot
 	rm -rf ${QLMainPath}/jbot/*
 	cd ${QLMainPath}/config && mkdir tasklist
-    cd ${QLMainPath}/repo && rm -rf pkc && git clone https://github.com/NaDuoHu/diypkc.git
+    cd ${QLMainPath}/repo && rm -rf pkc && git clone ${daili}https://github.com/NaDuoHu/diypkc.git
     cp -a ${QLMainPath}/repo/pkc/* ${QLMainPath}/jbot && cp -a ${QLMainPath}/jbot/conf/* ${QLMainPath}/config && cp -a ${QLMainPath}/jbot/jk_script/* ${QLMainPath}/scripts
     if [ ! -d ${QLMainPath}/log/bot ]; then
         mkdir ${QLMainPath}/log/bot
