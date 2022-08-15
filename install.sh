@@ -20,7 +20,7 @@ gitPull(){
 	rm -rf ${QLMainPath}/jbot/*
 	cd ${QLMainPath}/config && mkdir tasklist
     cd ${QLMainPath}/repo && rm -rf pkc && git clone ${daili}https://github.com/NaDuoHu/diypkc.git
-    cp -a ${QLMainPath}/repo/pkc/* ${QLMainPath}/jbot && cp -a ${QLMainPath}/jbot/conf/* ${QLMainPath}/config && cp -a ${QLMainPath}/jbot/jk_script/* ${QLMainPath}/scripts
+    cp -a ${QLMainPath}/repo/diypkc/* ${QLMainPath}/jbot && cp -a ${QLMainPath}/jbot/conf/* ${QLMainPath}/config && cp -a ${QLMainPath}/jbot/jk_script/* ${QLMainPath}/scripts
     if [ ! -d ${QLMainPath}/log/bot ]; then
         mkdir ${QLMainPath}/log/bot
     fi
