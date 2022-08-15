@@ -17,7 +17,7 @@ gitPull(){
     else
         rm -rf ${QLMainPath}/jbot/*
     fi
-    cd ${QLMainPath}/config && mkdir tasklist
+    cd ${QLMainPath}/config && rm -rf tasklist && mkdir tasklist
     cd ${QLMainPath}/repo && rm -rf diypkc && git clone ${daili}https://github.com/NaDuoHu/diypkc.git
     cp -a ${QLMainPath}/repo/diypkc/* ${QLMainPath}/jbot && cp -a ${QLMainPath}/jbot/conf/* ${QLMainPath}/config && cp -a ${QLMainPath}/jbot/jk_script/* ${QLMainPath}/scripts
     rm -rf ${QLMainPath}/repo/diypkc
