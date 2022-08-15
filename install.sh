@@ -21,7 +21,7 @@ gitPull(){
     cd ${QLMainPath}/config && mkdir tasklist
     cd ${QLMainPath}/repo && rm -rf diypkc && git clone ${daili}https://github.com/NaDuoHu/diypkc.git
     cp -a ${QLMainPath}/repo/diypkc/* ${QLMainPath}/jbot && cp -a ${QLMainPath}/jbot/conf/* ${QLMainPath}/config && cp -a ${QLMainPath}/jbot/jk_script/* ${QLMainPath}/scripts
-	mkdir ${QLMainPath}/repo/dockerbot && ln -sf ${QLMainPath}/repo/gd ${QLMainPath}/repo/dockerbot/jbot && ln -sf ${QLMainPath}/repo/gd/conf ${QLMainPath}/repo/dockerbot/config
+	mkdir ${QLMainPath}/repo/dockerbot && ln -sf ${QLMainPath}/repo/diypkc ${QLMainPath}/repo/dockerbot/jbot && ln -sf ${QLMainPath}/repo/diypkc/conf ${QLMainPath}/repo/dockerbot/config
     if [ ! -d ${QLMainPath}/log/bot ]; then
         mkdir ${QLMainPath}/log/bot
     fi
@@ -34,7 +34,7 @@ echo
 echo -e "\n\t\t\t【青龙安装Bot监控】\n"
 echo
 if [ -f ${QLMainPath}/jbot/user/user.py ];then
-    echo -e "\n你已部署，请启动即可:\ncd ${QLMainPath}\npython3 -m jbot\n\n或参考本仓库第3-4步:\nhttps://github.com/curtinlv/gd/blob/main/README.md"
+    echo -e "\n你已部署，请启动即可:\ncd ${QLMainPath}\npython3 -m jbot"
     echo -e "如果需要重新部署，请复制以下命令执行："
     echo -e "rm -rf  ${QLMainPath}/jbot/*  &&   bash  install.sh\n"
     exit 0
