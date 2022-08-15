@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -e
 
 daili='https://github.lolkda.cf/'
 
@@ -16,12 +17,10 @@ gitPull(){
     else
         rm -rf ${QLMainPath}/jbot/*
     fi
-    rm -rf ${QLMainPath}/repo/dockerbot
-    rm -rf ${QLMainPath}/jbot/*
-    cd ${QLMainPath}/config && mkdir tasklist
+	cd ${QLMainPath}/config && mkdir tasklist
     cd ${QLMainPath}/repo && rm -rf diypkc && git clone ${daili}https://github.com/NaDuoHu/diypkc.git
     cp -a ${QLMainPath}/repo/diypkc/* ${QLMainPath}/jbot && cp -a ${QLMainPath}/jbot/conf/* ${QLMainPath}/config && cp -a ${QLMainPath}/jbot/jk_script/* ${QLMainPath}/scripts
-	mkdir ${QLMainPath}/repo/dockerbot && ln -sf ${QLMainPath}/repo/diypkc ${QLMainPath}/repo/dockerbot/jbot && ln -sf ${QLMainPath}/repo/diypkc/conf ${QLMainPath}/repo/dockerbot/config
+    rm -rf ${QLMainPath}/repo/diypkc
     if [ ! -d ${QLMainPath}/log/bot ]; then
         mkdir ${QLMainPath}/log/bot
     fi
@@ -41,4 +40,4 @@ if [ -f ${QLMainPath}/jbot/user/user.py ];then
 fi
 gitPull
 echo -e "\n*******************\n所需环境已部署完成\n*******************\n"
-echo -e "请前往面板【配置文件】配置tg机器人参数，再启动机器人即可。
+echo -e "请前往面板【配置文件】配置tg机器人参数，再启动机器人即可。"
