@@ -18,6 +18,7 @@ gitPull(){
     fi
 	rm -rf ${QLMainPath}/repo/dockerbot
 	rm -rf ${QLMainPath}/jbot/*
+	cd ${QLMainPath}/config && mkdir tasklist
     cd ${QLMainPath}/repo && rm -rf pkc && git clone https://github.com/NaDuoHu/diypkc.git
     cp -a ${QLMainPath}/repo/pkc/* ${QLMainPath}/jbot && cp -a ${QLMainPath}/jbot/conf/* ${QLMainPath}/config && cp -a ${QLMainPath}/jbot/jk_script/* ${QLMainPath}/scripts
     if [ ! -d ${QLMainPath}/log/bot ]; then
