@@ -12,7 +12,6 @@ echo -e "\n\t\t\t你的青龙版本为:${QL_BRANCH}\n"
 
 install_depend(){
 
-    if [ -f ${QLMainPath}/config/extra.sh ];then
             echo -e "#拉取监控所需脚本" >>${QLMainPath}/config/extra.sh
             echo "if [ -d /ql/data/config ];then" >>${QLMainPath}/config/extra.sh
             echo "    QLMainPath='/ql/data'" >>${QLMainPath}/config/extra.sh
@@ -25,7 +24,6 @@ install_depend(){
             echo "}" >>${QLMainPath}/config/extra.sh
             echo "gitPull" >>${QLMainPath}/config/extra.sh
             echo -e "\n*******************\n监控脚本更新完毕\n*******************\n" >>${QLMainPath}/config/extra.sh
-    fi
 
 }
 
