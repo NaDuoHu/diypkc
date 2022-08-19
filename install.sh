@@ -17,13 +17,13 @@ install_depend(){
             echo "    QLMainPath='/ql/data'" >>${QLMainPath}/config/extra.sh
             echo "else" >>${QLMainPath}/config/extra.sh
             echo "QLMainPath='/ql'" >>${QLMainPath}/config/extra.sh
-            echo "fi" >>${QLMainPath}/config/extra.sh
-            echo "\ngitPull(){" >>${QLMainPath}/config/extra.sh
+            echo "fi\n" >>${QLMainPath}/config/extra.sh
+            echo "gitPull(){" >>${QLMainPath}/config/extra.sh
             echo "    echo -e "开始拉取所需脚本"" >>${QLMainPath}/config/extra.sh
             echo "    cd ${QLMainPath}/repo && rm -rf KR && git clone ${daili}https://github.com/KingRan/KR.git" >>${QLMainPath}/config/extra.sh
-            echo "}" >>${QLMainPath}/config/extra.sh
-            echo "\ngitPull" >>${QLMainPath}/config/extra.sh
-            echo -e "\n*******************\n监控脚本更新完毕\n*******************\n" >>${QLMainPath}/config/extra.sh
+            echo "}\n" >>${QLMainPath}/config/extra.sh
+            echo "gitPull" >>${QLMainPath}/config/extra.sh
+            echo -e "\n*******************监控脚本更新完毕*******************" >>${QLMainPath}/config/extra.sh
 
 }
 
