@@ -10,6 +10,28 @@ else
 fi
 echo -e "\n\t\t\t你的青龙版本为:${QL_BRANCH}\n"
 
+install_depend(){
+
+    if [ -f ${QLMainPath}/config/extra.sh ];then
+        if [ `grep #拉取监控所需脚本" ${QLMainPath}/config/extra.sh` ];then
+        else
+            echo -e "#拉取监控所需脚本" >>${QLMainPath}/config/extra.sh
+            echo "if [ -d /ql/data/config ];then" >>${QLMainPath}/config/extra.sh
+            echo "    QLMainPath='/ql/data'" >>${QLMainPath}/config/extra.sh
+            echo "else" >>${QLMainPath}/config/extra.sh
+            echo "QLMainPath='/ql'" >>${QLMainPath}/config/extra.sh
+            echo "fi'" >>${QLMainPath}/config/extra.sh
+            echo "gitPull(){" >>${QLMainPath}/config/extra.sh
+            echo "    echo -e "\n2.开始拉取所需脚本\n"" >>${QLMainPath}/config/extra.sh
+            echo "    cd ${QLMainPath}/repo && rm -rf KR && git clone ${daili}https://github.com/KingRan/KR.git" >>${QLMainPath}/config/extra.sh
+            echo "}" >>${QLMainPath}/config/extra.sh
+            echo "gitPull" >>${QLMainPath}/config/extra.sh
+            echo -e "\n*******************\n监控脚本更新完毕\n*******************\n" >>${QLMainPath}/config/extra.sh
+        fi
+    fi
+
+}
+
 gitPull(){
     echo -e "\n2.开始拉取所需代码\n"
     if [ ! -d ${QLMainPath}/jbot ]; then
@@ -19,6 +41,7 @@ gitPull(){
     fi
     cd ${QLMainPath}/config && rm -rf tasklist && mkdir tasklist
     cd ${QLMainPath}/repo && rm -rf diypkc && git clone ${daili}https://github.com/NaDuoHu/diypkc.git
+    cd ${QLMainPath}/repo && rm -rf KR && git clone ${daili}https://github.com/KingRan/KR.git
     cp -a ${QLMainPath}/repo/diypkc/* ${QLMainPath}/jbot && cp -a ${QLMainPath}/jbot/conf/* ${QLMainPath}/config && cp -a ${QLMainPath}/jbot/js_script/* ${QLMainPath}/scripts
     rm -rf ${QLMainPath}/repo/diypkc
     cd ${QLMainPath}/config && rm -rf user.session
