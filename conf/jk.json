@@ -231,6 +231,12 @@
             "scriptPath":"/ql/repo/KR/jd_follow.js"
         },
         {
+            "isOpen": false,
+            "name": "KR微定制瓜分京豆",
+            "envName":"jd_wdz_activityId",
+            "scriptPath":"/ql/repo/KR/jd_wdz.js"
+        },
+        {
             "isOpen": true,
             "name": "店铺签到(监控变量=DPQDTK)",
             "envName":"DPQDTK",
