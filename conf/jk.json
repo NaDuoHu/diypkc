@@ -119,8 +119,8 @@
         {
             "isOpen": true,
             "name": "KRLZ分享有礼",
-            "envName":"jd_fxyl_activityId",
-            "scriptPath":"/ql/repo/KR/jd_share.js"
+            "envName":"jd_wxShareActivity_activityId",
+            "scriptPath":"/ql/repo/KR/jd_wxShareActivity.js"
         },
         {
             "isOpen": true,
@@ -149,8 +149,8 @@
         {
             "isOpen": true,
             "name": "KRLZ店铺通用游戏",
-            "envName":"WXGAME_ACT_ID",
-            "scriptPath":"/ql/repo/KR/jd_game.js"
+            "envName":"jd_wxgame_activityId",
+            "scriptPath":"/ql/repo/KR/jd_wxgame.js"
         },
         {
             "isOpen": true,
