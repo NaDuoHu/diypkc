@@ -112,8 +112,8 @@
         },
         {
             "isOpen": true,
-            "name": "KR微定制瓜分京豆",
-            "envName":"jd_wdz_activityId",
+            "name": "KR微定制瓜分福袋",
+            "envName":"jd_wdzfd_activityId",
             "scriptPath":"/ql/repo/KR/jd_wdzfd.js"
         },
         {
