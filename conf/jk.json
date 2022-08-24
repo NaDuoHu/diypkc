@@ -19,7 +19,7 @@
 
     "cmdName": "task",
 
-    "isNow": true,
+    "isNow": false,
 
     "log_send": "1",
 
