@@ -15,7 +15,8 @@ from telethon import events
 from .. import chat_id, jdbot, logger, ch_name, BOT_SET
 from ..bot.utils import cmd, TASK_CMD,split_list, press_event
 from ..diy.utils import read, write
-from .login import user
+# from .login import user
+from .. import jdbot, user
 import time,re,requests,asyncio,os
 # 格式基本固定，本例子表示从chat_id处接收到包含hello消息后，要做的事情
 @user.on(events.NewMessage(pattern=r'^导出ck$',outgoing=True))
