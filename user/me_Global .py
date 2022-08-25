@@ -85,7 +85,7 @@ async def jcmd(event):
             msg = f'【脚本类型】: 购物车锦鲤\n【活动变量】:\n`export jd_wxCartKoi_activityId="{activateId[0]}"`'
             
         elif re.findall("https://happy.m.jd.com/babelDiy/zjyw", data['jumpUrl']):
-            msg = f'【脚本类型】: 锦鲤红包\n【活动变量】:\n`锦鲤红包id="{asid[0]}"`'
+            msg = f'【脚本类型】: 锦鲤红包\n【活动变量】:\n锦鲤红包id="`{asid[0]}`"'
             
         elif re.findall("https://cjhy-isv.isvjcloud.com/wxInviteActivity/openCard/invitee", data['jumpUrl']):
             msg = f'【脚本类型】: 入会开卡领取礼包\n【活动变量】:\n`export VENDER_ID="{shopid[0]}"`'
