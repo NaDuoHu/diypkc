@@ -28,175 +28,175 @@
    "jk":[
         {
             "isOpen": true,
-            "name": "M收藏有礼",
+            "name": "M_收藏有礼",
             "envName":"M_FAV_SHOP_ARGV",
             "scriptPath":"/ql/scripts/jk_script/m_jd_fav_shop_gift.js"
         },
         {
             "isOpen": true,
-            "name": "M关注有礼",
+            "name": "M_关注有礼",
             "envName":"M_FOLLOW_SHOP_ARGV",
             "scriptPath":"/ql/scripts/jk_script/m_jd_follow_shop.js"
         },
         {
             "isOpen": true,
-            "name": "M加购有礼",
+            "name": "M_加购有礼",
             "envName":"M_WX_ADD_CART_URL",
             "scriptPath":"/ql/scripts/jk_script/m_jd_wx_addCart.js"
         },
         {
             "isOpen": true,
-            "name": "M集卡抽奖",
+            "name": "M_集卡抽奖",
             "envName":"M_WX_COLLECT_CARD_URL",
             "scriptPath":"/ql/scripts/jk_script/m_jd_wx_collectCard.js"
         },
         {
             "isOpen": true,
-            "name": "M幸运抽奖",
+            "name": "M_幸运抽奖",
             "envName":"M_WX_LUCK_DRAW_URL",
             "scriptPath":"/ql/scripts/jk_script/m_jd_wx_luckDraw.js"
         },
         {
             "isOpen": true,
-            "name": "M老虎机",
+            "name": "M_老虎机",
             "envName":"M_WX_CENTER_DRAW_URL",
             "scriptPath":"/ql/scripts/jk_script/m_jd_wx_centerDraw.js"
         },
         {
             "isOpen": true,
-            "name": "KR入会开卡领取礼包",
+            "name": "KR_入会开卡领取礼包",
             "envName":"VENDER_ID",
             "scriptPath":"/ql/repo/KR/jd_OpenCard_Force.js"
         },
         {
             "isOpen": true,
-            "name": "KR大牌联合",
+            "name": "KR_大牌联合",
             "envName":"DPLHTY",
             "scriptPath":"/ql/repo/KR/jd_opencardDPLHTY.js"
         },
         {
             "isOpen": true,
-            "name": "KRLZ关注抽奖",
+            "name": "KR_LZ关注抽奖",
             "envName":"jd_wxShopFollowActivity_activityId",
             "scriptPath":"/ql/repo/KR/jd_wxShopFollowActivity.js"
         },
         {
             "isOpen": true,
-            "name": "KRLZ让福袋飞",
+            "name": "KR_LZ让福袋飞",
             "envName":"jd_wxUnPackingActivity_activityId",
             "scriptPath":"/ql/repo/KR/jd_wxUnPackingActivity.js"
         },
         {
             "isOpen": true,
-            "name": "KR组队瓜分京豆",
+            "name": "KR_组队瓜分京豆",
             "envName":"jd_zdjr_activityId",
             "scriptPath":"/ql/repo/KR/jd_zdjr.js"
         },
         {
             "isOpen": true,
-            "name": "KR粉丝互动通用活动",
+            "name": "KR_粉丝互动通用活动",
             "envName":"jd_wxFansInterActionActivity_activityId",
             "scriptPath":"/ql/repo/KR/jd_wxFansInterActionActivity.js"
         },
         {
             "isOpen": true,
-            "name": "KR集卡抽奖通用活动",
+            "name": "KR_集卡抽奖通用活动",
             "envName":"jd_wxCollectCard_activityId",
             "scriptPath":"/ql/repo/KR/jd_wxCollectCard.js"
         },
         {
             "isOpen": true,
-            "name": "KR购物车锦鲤通用活动",
+            "name": "KR_购物车锦鲤通用活动",
             "envName":"jd_wxCartKoi_activityId",
             "scriptPath":"/ql/repo/KR/jd_wxCartKoi.js"
         },
         {
             "isOpen": true,
-            "name": "KR微定制瓜分福袋",
+            "name": "KR_微定制瓜分福袋",
             "envName":"jd_wdzfd_activityId",
             "scriptPath":"/ql/repo/KR/jd_wdzfd.js"
         },
         {
             "isOpen": true,
-            "name": "KRLZ分享有礼",
+            "name": "KR_LZ分享有礼",
             "envName":"jd_wxShareActivity_activityId",
             "scriptPath":"/ql/repo/KR/jd_wxShareActivity.js"
         },
         {
             "isOpen": true,
-            "name": "KR盲盒任务抽京豆",
+            "name": "KR_盲盒任务抽京豆",
             "envName":"jd_mhurlList",
             "scriptPath":"/ql/repo/KR/jd_mhtask.js"
         },
         {
             "isOpen": true,
-            "name": "KRLZ加购有礼",
+            "name": "KR_LZ加购有礼",
             "envName":"jd_lzaddCart_activityId",
             "scriptPath":"/ql/repo/KR/jd_lzaddCart.js"
         },
         {
             "isOpen": true,
-            "name": "KRjoy抽奖机通用",
+            "name": "KR_joy抽奖机通用",
             "envName":"JD_Lottery",
             "scriptPath":"/ql/repo/KR/jd_lottery.js"
         },
         {
             "isOpen": true,
-            "name": "KRJOY通用开卡",
+            "name": "KR_JOY通用开卡",
             "envName":"JD_JOYOPEN",
             "scriptPath":"/ql/repo/KR/jd_joyopen.js"
         },
         {
             "isOpen": true,
-            "name": "KRLZ店铺通用游戏",
+            "name": "KR_LZ店铺通用游戏",
             "envName":"jd_wxgame_activityId",
             "scriptPath":"/ql/repo/KR/jd_wxgame.js"
         },
         {
             "isOpen": true,
-            "name": "KRLZ刮刮乐抽奖",
+            "name": "KR_LZ刮刮乐抽奖",
             "envName":"jd_drawCenter_activityId",
             "scriptPath":"/ql/repo/KR/jd_drawCenter.js"
         },
         {
             "isOpen": true,
-            "name": "KR电脑配件",
+            "name": "KR_电脑配件",
             "envName":"computer_activityIdList",
             "scriptPath":"/ql/repo/KR/jd_computer.js"
         },
         {
             "isOpen": true,
-            "name": "KR超级无线店铺签到1",
+            "name": "KR_超级无线店铺签到1",
             "envName":"LZKJ_SEVENDAY",
             "scriptPath":"/ql/repo/KR/jd_sevenDay.js"
         },
         {
             "isOpen": true,
-            "name": "KR超级无线店铺签到2",
+            "name": "KR_超级无线店铺签到2",
             "envName":"LZKJ_SIGN",
             "scriptPath":"/ql/repo/KR/jd_sevenDay.js"
         },
         {
             "isOpen": true,
-            "name": "KR超级无线店铺签到3",
+            "name": "KR_超级无线店铺签到3",
             "envName":"CJHY_SEVENDAY",
             "scriptPath":"/ql/repo/KR/jd_sevenDay.js"
         },
         {
             "isOpen": true,
-            "name": "KR超级无线店铺签到3",
+            "name": "KR_超级无线店铺签到4",
             "envName":"CJHY_SIGN",
             "scriptPath":"/ql/repo/KR/jd_sevenDay.js"
         },
         {
             "isOpen": true,
-            "name": "KRCJ组队瓜分京豆",
+            "name": "KR_CJ组队瓜分京豆",
             "envName":"jd_cjhy_activityId",
             "scriptPath":"/ql/repo/KR/jd_cjzdgf.js"
         },
         {
             "isOpen": true,
-            "name": "KR读秒拼手速",
+            "name": "KR_读秒拼手速",
             "envName":"jd_wxSecond_activityId",
             "scriptPath":"/ql/repo/KR/jd_wxSecond.js"
         },
@@ -210,74 +210,194 @@
             "isOpen": true,
             "name": "PKC关注有礼",
             "envName":"PKC_GZYL",
-            "scriptPath":"/ql/repo/KR/pkc_gzyl.js"
+            "scriptPath":"/ql/scripts/jk_script/pkc_gzyl.js"
         },
         {
             "isOpen": true,
-            "name": "船长邀请好友赢大礼",
+            "name": "船长_邀请好友赢大礼",
             "envName":"jd_inv_authorCode",
             "scriptPath":"/ql/scripts/jk_script/jd_inviteFriendsGift.py"
         },
         {
             "isOpen": true,
-            "name": "KR邀请好友赢大礼",
+            "name": "KR_邀请好友赢大礼",
             "envName":"yhyauthorCode",
             "scriptPath":"/ql/repo/KR/jd_yqhy.py"
         },
         {
             "isOpen": true,
-            "name": "KR幸运抽奖通用活动",
+            "name": "KR_幸运抽奖通用活动",
             "envName":"LUCK_DRAW_URL",
             "scriptPath":"/ql/repo/KR/jd_luck_draw.js"
         },
         {
             "isOpen": false,
-            "name": "KR关注有礼",
+            "name": "KR_关注有礼",
             "envName":"M_FOLLOW_SHOP_ARGV",
             "scriptPath":"/ql/repo/KR/jd_follow.js"
         },
         {
             "isOpen": true,
-            "name": "KR微定制瓜分京豆",
+            "name": "KR_微定制瓜分京豆",
             "envName":"jd_wdz_activityId",
             "scriptPath":"/ql/repo/KR/jd_wdz.js"
         },
         {
             "isOpen": true,
-            "name": "KR加购有礼 · 超级无线",
+            "name": "KR_加购有礼超级无线",
             "envName":"jd_wxCollectionActivity_activityUrl",
             "scriptPath":"/ql/repo/KR/jd_wxCollectionActivity.js"
         },
         {
             "isOpen": true,
-            "name": "KR品类联合 通用",
+            "name": "KR_品类联合 通用",
             "envName":"opencard_pl",
             "scriptPath":"/ql/repo/KR/jd_opencardPL.js"
         },
         {
             "isOpen": true,
-            "name": "KRCJ知识超人通用活动",
+            "name": "KR_CJ知识超人通用活动",
             "envName":"jd_cjwxKnowledgeActivity_activityId",
             "scriptPath":"/ql/repo/KR/jd_cjwxKnowledgeActivity.js"
         },
         {
             "isOpen": true,
-            "name": "KRCJ关注店铺有礼",
+            "name": "KR_CJ关注店铺有礼",
             "envName":"jd_cjwxShopFollowActivity_activityId",
             "scriptPath":"/ql/repo/KR/jd_cjwxShopFollowActivity.js"
         },
         {
             "isOpen": true,
-            "name": "KRLZ知识超人通用活动",
+            "name": "KR_LZ知识超人通用活动",
             "envName":"jd_wxKnowledgeActivity_activityId",
             "scriptPath":"/ql/repo/KR/jd_wxKnowledgeActivity.js"
         },
         {
             "isOpen": true,
-            "name": "店铺签到(监控变量=DPQDTK)",
+            "name": "老船长_店铺签到",
             "envName":"DPQDTK",
             "scriptPath":"/ql/scripts/jk_script/jd_dpqd.js"
-        }
+        },
+        {
+            "isOpen": true,
+            "name": "自动鸭_加购有礼",
+            "envName":"jd_task_jgyl_custom",
+            "scriptPath":"/ql/scripts/kedaya/jd_task_jgyl.js"
+        },
+        {
+            "isOpen": true,
+            "name": "自动鸭_微定制",
+            "envName":"jd_task_wdz_custom",
+            "scriptPath":"/ql/scripts/kedaya/jd_task_wdz.js"
+        },
+        {
+            "isOpen": true,
+            "name": "自动鸭_转盘抽奖",
+            "envName":"jd_task_zpcj_custom",
+            "scriptPath":"/ql/scripts/kedaya/jd_task_zpcj.js"
+        },
+        {
+            "isOpen": true,
+            "name": "自动鸭_LZ组队",
+            "envName":"jd_task_lzzd_custom",
+            "scriptPath":"/ql/scripts/kedaya/jd_task_lzzd.js"
+        },
+        {
+            "isOpen": true,
+            "name": "自动鸭_cj组队",
+            "envName":"jd_task_cjzd_custom",
+            "scriptPath":"/ql/scripts/kedaya/jd_task_cjzd.js"
+        },
+        {
+            "isOpen": true,
+            "name": "自动鸭_关注抽奖",
+            "envName":"jd_task_gzcj_custom",
+            "scriptPath":"/ql/scripts/kedaya/jd_task_gzcj.js"
+        },
+        {
+            "isOpen": true,
+            "name": "自动鸭_老虎机抽奖",
+            "envName":"jd_task_lhjcj_custom",
+            "scriptPath":"/ql/scripts/kedaya/jd_task_lhjcj.js"
+        },
+        {
+            "isOpen": true,
+            "name": "自动鸭_盖楼有礼 手动",
+            "envName":"jd_task_glyl_custom",
+            "scriptPath":"/ql/scripts/kedaya/jd_task_glyl.js"
+        },
+        {
+            "isOpen": true,
+            "name": "自动鸭_签到有礼 手动",
+            "envName":"jd_task_qdyl_custom",
+            "scriptPath":"/ql/scripts/kedaya/jd_task_qdyl.js"
+        },
+        {
+            "isOpen": true,
+            "name": "自动鸭_七天签到 手动",
+            "envName":"jd_task_qtqd_custom",
+            "scriptPath":"/ql/scripts/kedaya/jd_task_qtqd.js"
+        },
+        {
+            "isOpen": true,
+            "name": "自动鸭_每日抢",
+            "envName":"jd_task_mrq_custom",
+            "scriptPath":"/ql/scripts/kedaya/jd_task_mrq.js"
+        },
+        {
+            "isOpen": true,
+            "name": "自动鸭_积分换豆 手动",
+            "envName":"jd_task_jfhd_custom",
+            "scriptPath":"/ql/scripts/kedaya/jd_task_jfhd.js"
+        },
+        {
+            "isOpen": true,
+            "name": "自动鸭_集卡有礼",
+            "envName":"jd_task_jkyl_custom",
+            "scriptPath":"/ql/scripts/kedaya/jd_task_jkyl.js"
+        },
+        {
+            "isOpen": true,
+            "name": "自动鸭_粉丝互动",
+            "envName":"jd_task_fshd_custom",
+            "scriptPath":"/ql/scripts/kedaya/jd_task_fshd.js"
+        },
+        {
+            "isOpen": true,
+            "name": "自动鸭_分享有礼",
+            "envName":"jd_task_fsyl_custom",
+            "scriptPath":"/ql/scripts/kedaya/jd_task_fsyl.js"
+        },
+        {
+            "isOpen": true,
+            "name": "自动鸭_拼手速",
+            "envName":"jd_task_mdsx_custom",
+            "scriptPath":"/ql/scripts/kedaya/jd_task_mdsx.js"
+        },
+        {
+            "isOpen": true,
+            "name": "自动鸭_无线游戏",
+            "envName":"jd_task_djlb_custom",
+            "scriptPath":"/ql/scripts/kedaya/jd_task_djlb.js"
+        },
+        {
+            "isOpen": true,
+            "name": "自动鸭_抽奖赚积分",
+            "envName":"jd_task_cjjf_custom",
+            "scriptPath":"/ql/scripts/kedaya/jd_task_cjjf.js"
+        },
+        {
+            "isOpen": true,
+            "name": "自动鸭_wuxian",
+            "envName":"jd_task_wuxian_custom",
+            "scriptPath":"/ql/scripts/kedaya/jd_task_wuxian.js"
+        },
+        {
+            "isOpen": true,
+            "name": "自动鸭_等级礼包",
+            "envName":"jd_task_djlb_custom",
+            "scriptPath":"/ql/scripts/kedaya/jd_task_djlb.js"
+        },
    ]
     
 }
