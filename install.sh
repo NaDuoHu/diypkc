@@ -37,7 +37,7 @@ gitPull(){
     cd ${QLMainPath}/config && rm -rf tasklist && mkdir tasklist
     cd ${QLMainPath}/repo && rm -rf diypkc && git clone ${daili}https://github.com/NaDuoHu/diypkc.git
     cd ${QLMainPath}/repo && rm -rf KR && git clone ${daili}https://github.com/KingRan/KR.git
-    cp -a ${QLMainPath}/repo/diypkc/* ${QLMainPath}/jbot && cp -a ${QLMainPath}/jbot/conf/* ${QLMainPath}/config && cp -a ${QLMainPath}/jbot/js_script/* ${QLMainPath}/scripts
+    cp -a ${QLMainPath}/repo/diypkc/* ${QLMainPath}/jbot && cp -a ${QLMainPath}/jbot/conf/* ${QLMainPath}/config && cp -a ${QLMainPath}/jbot/js_script/* ${QLMainPath}/scripts && cp -a ${QLMainPath}/jbot/jk_script ${QLMainPath}/scripts
     rm -rf ${QLMainPath}/repo/diypkc
     cd ${QLMainPath}/config && rm -rf user.session
     if [ ! -d ${QLMainPath}/log/bot ]; then
