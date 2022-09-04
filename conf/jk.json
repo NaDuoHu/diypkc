@@ -256,6 +256,24 @@
         },
         {
             "isOpen": true,
+            "name": "KRCJ知识超人通用活动",
+            "envName":"jd_cjwxKnowledgeActivity_activityId",
+            "scriptPath":"/ql/repo/KR/jd_cjwxKnowledgeActivity.js"
+        },
+        {
+            "isOpen": true,
+            "name": "KRCJ关注店铺有礼",
+            "envName":"jd_cjwxShopFollowActivity_activityId",
+            "scriptPath":"/ql/repo/KR/jd_cjwxShopFollowActivity.js"
+        },
+        {
+            "isOpen": true,
+            "name": "KRLZ知识超人通用活动",
+            "envName":"jd_wxKnowledgeActivity_activityId",
+            "scriptPath":"/ql/repo/KR/jd_wxKnowledgeActivity.js"
+        },
+        {
+            "isOpen": true,
             "name": "店铺签到(监控变量=DPQDTK)",
             "envName":"DPQDTK",
             "scriptPath":"/ql/scripts/jk_script/jd_dpqd.js"
