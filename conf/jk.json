@@ -397,7 +397,7 @@
             "name": "自动鸭_等级礼包",
             "envName":"jd_task_djlb_custom",
             "scriptPath":"/ql/scripts/kedaya/jd_task_djlb.js"
-        },
+        }
    ]
     
 }
