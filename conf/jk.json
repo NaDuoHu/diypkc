@@ -219,7 +219,7 @@
             "scriptPath":"/ql/scripts/jk_script/jd_inviteFriendsGift.py"
         },
         {
-            "isOpen": true,
+            "isOpen": false,
             "name": "KR_邀请好友赢大礼",
             "envName":"yhyauthorCode",
             "scriptPath":"/ql/repo/KR/jd_yqhy.py"
